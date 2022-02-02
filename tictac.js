@@ -55,9 +55,9 @@ function checkWin() {
 const resetButton = document.getElementById("restartButton");
 function reset() {
   for (let i = 0; i < cells.length; i++) {
-    cells[i].textContent = ""
-    turnCounter = 0
+    cells[i].textContent = "";
+    turnCounter = 0;
   }
 }
 
-resetButton.addEventListener("click", reset)
+resetButton.addEventListener("click", reset);
