@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="tictacstyle" href="tictacstyle.css" />
-    <title>TicTacToe Lab</title>
-  </head>
+    <link rel="stylesheet" href="tictacstyle.css" />
+    <title>TicTacToe Interactivity Lab</title>
+</head>
 
-  <body>
-    <div id="board">
-      <h1>Tic Tac Toe</h1>
+<body>
+    <div class="board" id="board">
+        <h1>Tic Tac Toe</h1>
 
-      <div class="row">
-        <div class="top left"></div>
-        <div class="top middle"></div>
-        <div class="top right"></div>
-      </div>
-      <div class="row">
-        <div class="middle left"></div>
-        <div class="center"></div>
-        <div class="middle right"></div>
-      </div>
-      <div class="row">
-        <div class="bottom left"></div>
-        <div class="bottom middle"></div>
-        <div class="bottom right"></div>
-      </div>
-    </div>
+        <div class="row">
+            <div class="top left"></div>
+            <div class="top middle"></div>
+            <div class="top right"></div>
+        </div>
+        <div class="row">
+            <div class="middle left"></div>
+            <div class="center"></div>
+            <div class="middle right"></div>
+        </div>
+        <div class="row">
+            <div class="bottom left"></div>
+            <div class="bottom middle"></div>
+            <div class="bottom right"></div>
+        </div>
 
-    <script src= "tictac.js"></script>
-  </body>
+        <div class="winning-message" id="winningMessage">
+            <div id="winningMessageText"></div>
+            <button id="restartButton">Restart</button>
+        </div>
+
+        <script src="tictac.js"></script>
+</body>
+
 </html>
